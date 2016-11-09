@@ -9,6 +9,7 @@ First we will want to click on a web element that we know has a strucutred event
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/click_event.gif){{: .center-image }}
 
+
 After that I need to look at the Developer Console in Chrome to see what click that button actually did. Right click on the page and then click "Inspect", just like below.
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/opening_dev_console.gif){{: .center-image }}
