@@ -5,11 +5,13 @@ title: How to look for Struructed Events in Snowplow with the Development Consol
 
 Let test out some images!
 
+![My helpful screenshot]({{ site.url }}/images/snowplow/click_event.gif)
+![My helpful screenshot]({{ site.url }}/images/snowplow/opening_dev_console.gif)
+![My helpful screenshot]({{ site.url }}/images/snowplow/open_network_tab.gif)
+![My helpful screenshot]({{ site.url }}/images/snowplow/packet_sniffing.gif)
+![My helpful screenshot]({{ site.url }}/images/snowplow/serach_looker.gif)
+![My helpful screenshot]({{ site.url }}/images/snowplow/custom_query.gif)
 
-![image-title-here](https://d.pr/Lxok){:class="img-responsive"}
-![image-title-here](https://d.pr/8wR){:class="img-responsive"}
-![image-title-here](https://d.pr/Yc5d){:class="img-responsive"}
-![image-title-here](https://d.pr/ci1k){:class="img-responsive"}
-![image-title-here|(https://d.pr/DR0r){:class="img-responsive"}
-![image-title-here](https://d.pr/41iZ){:class="img-responsive"}
+
+
 
