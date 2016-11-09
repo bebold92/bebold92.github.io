@@ -3,13 +3,13 @@ layout: post
 title: Searching for Snowplow's Structured Events
 ---
 
-This is a tutorial on how to look for any type of structured event that Snowplow or other event based web analytics tools collects. This will help understand how a server call is built and how the data is sent to your backend system. In the case of Dollar Shave Club that is Looker. 
+This is a tutorial on how to look for any type of structured event that Snowplow or other event based web analytics tools collects. This will help you understand how a server call is built and how the data is sent to your backend system. In the case of Dollar Shave Club that is Looker. 
 
-First, we will want to click on a web element that we know has a structured event attached to it. If you do not know if a web element has an event attached to it, click everywhere and them we can see if a structured event pops up in the network tab. Right now I want to know the number of clicks on on our FAQs sections.
+First, we will want to click on a web element that we know has a structured event attached to it. If you do not know if a web element has an event attached to it, click everywhere and them we can see if a structured event pops up in the network tab. Right now I want to know the number of clicks on our FAQs sections.
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/click_event.gif){:class="center-image"}
 
-After that I need to look at the Developer Console in Chrome to see what click that button actually did. Right click on the page and then click "Inspect", just like below.
+After that I need to look at the Developer Console in Chrome to see what that click actually did. Right click on the page and then click "Inspect", just like below.
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/opening_dev_console.gif){:class="center-image"}
 
@@ -21,7 +21,7 @@ After you start to see lots of rows load up, we need to search only for Snowplow
 
 After that, we now want to look at what that call consist of. For Snowplow there is two primary types of calls, pageviews and structured events. When **"e=pv"** that is a pageview and will show up in the backend as a page. When **"e=se"** that is a structured event. This is what we are searching for right now. Below I go through several different calls to show some examples of the information that is collected.
 
-In the case of the structured events, there is normally three different values associated that call. Those three values are Catagory, Action, and Label. They will appear in a hierarchical order in the database, the table below shows how each value matches with the network call.
+In the case of the structured events, there is normally three different values associated to that call. Those three values are Catagory, Action, and Label. They will appear in a hierarchical order in the database, the table below shows how each value matches with the network call.
 
 {:class="mbtablestyle"}
 | Values   | Paramaters | 
