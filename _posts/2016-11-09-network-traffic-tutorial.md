@@ -30,7 +30,7 @@ In the case of the structured events, there is normally three different values a
 | Action   | se_ac      | 
 | Label    | se_la      |
 
-Look a the network call syntax and you will see these three values.
+Look at the network call syntax and you will see these three values.
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/packet_sniffing.gif){:class="center-image"}
 
