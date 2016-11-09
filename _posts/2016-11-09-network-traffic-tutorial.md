@@ -42,4 +42,4 @@ This will open the tab that will let you search for the network calls that you j
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/custom_query.gif){:class="center-image"}
 
-I hope this tutorial will help you understand how to look for the data that you are interested in.
+I hope this tutorial will help you understand how to look for the data that you are interested in. 
