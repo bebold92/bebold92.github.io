@@ -19,7 +19,7 @@ After you start to see lots of rows load up, we need to search only for Snowplow
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/open_network_tab.gif){{: .center-image }}
 
-After that we now want to look at what that call consist of. For Snowplow there is two primary types of calls, pageview and structured events. When **e=pv** that is a pageview and will show up in the backend as a page. when **e=se** that is a strucuted event. This is what we are searching for right now. Below I go thought several different calles to show some examples of the infomation that is collected.
+After that we now want to look at what that call consist of. For Snowplow there is two primary types of calls, pageview and structured events. When **"e=pv"** that is a pageview and will show up in the backend as a page. when **"e=se"** that is a strucuted event. This is what we are searching for right now. Below I go thought several different calles to show some examples of the infomation that is collected.
 
 In the case of the structued events, there is normally three different values assoicated that the call. Those three values are Catagory, Action, Label. They will apear in an heighirical order, the table below shows what each value matches into the backend
 
