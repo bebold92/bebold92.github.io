@@ -118,6 +118,12 @@ img {
         }
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
