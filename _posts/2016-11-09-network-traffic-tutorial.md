@@ -27,7 +27,8 @@ In the case of the structued events, there is normally three different values as
 | :------: |:----------:| 
 | Catagory | se_ca      | 
 | Action   | se_ac      | 
-| Label    | se_la      |   
+| Label    | se_la      |
+{:.mbtablestyle}
 
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/packet_sniffing.gif)
