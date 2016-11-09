@@ -23,12 +23,12 @@ After that we now want to look at what that call consist of. For Snowplow there 
 
 In the case of the structued events, there is normally three different values assoicated that the call. Those three values are Catagory, Action, Label. They will apear in an heighirical order, the table below shows what each value matches into the backend
 
+{:class="mbtablestyle"}
 | Values   | Paramaters | 
 | :------: |:----------:| 
 | Catagory | se_ca      | 
 | Action   | se_ac      | 
 | Label    | se_la      |
-{:class="mbtablestyle"}
 
 ![My helpful screenshot]({{ site.url }}/images/snowplow/packet_sniffing.gif){:class="center-image"}
 
