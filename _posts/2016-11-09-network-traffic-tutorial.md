@@ -7,12 +7,14 @@ This is a turtioul on how to look for any type of strucutred event that Snowplow
 
 First we will want to click on a web element that we know has a strucutred event attached to it. If you do not know if a web element has an event attached to it, click everywhere and they we can see if a structed event pops up. I want to know the number of clicks on a web elements on our FAQs sections.
 
-![My helpful screenshot]({{ site.url }}/images/snowplow/click_event.gif){{: .center-image }}
+{: .center-image }
+![My helpful screenshot]({{ site.url }}/images/snowplow/click_event.gif)
 
 
 After that I need to look at the Developer Console in Chrome to see what click that button actually did. Right click on the page and then click "Inspect", just like below.
 
-![My helpful screenshot]({{ site.url }}/images/snowplow/opening_dev_console.gif){{: .center-image }}
+{{: .center-image }}
+![My helpful screenshot]({{ site.url }}/images/snowplow/opening_dev_console.gif)
 
 From here you will need to look at specificly the "Network" tab. There will be alot of noice here because website constatally make request to alots of website. If you do no see anything, refresh the page and leave this tab open. Repeat the step above and click the element again. 
 
